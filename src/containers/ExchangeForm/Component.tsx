@@ -80,7 +80,7 @@ export const ExchangeFormContainer = () => {
             <div>
               <h3 className={styles.fromTitle}>{fromAccount?.title}</h3>
               <h4 className={styles.fromSubTitle}>
-                You have: {fromAccount?.balance}&nbsp;
+                You have: {fromAccount?.balance.toFixed(2)}&nbsp;
                 {getSymbolFromCurrency(from)}
               </h4>
             </div>

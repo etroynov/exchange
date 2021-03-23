@@ -17,7 +17,7 @@ export const Card: FC<Props> = ({ title, type, balance }) => (
     </header>
 
     <main className={styles.balance} data-testid="card-balance">
-      {getSymbolFromCurrency(type)} {balance}
+      {getSymbolFromCurrency(type)} {balance.toFixed(2)}
     </main>
   </section>
 );
