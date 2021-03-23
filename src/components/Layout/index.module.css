@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  display: flex;
+  grid-gap: 20px;
+  gap: 20px;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  text-transform: uppercase;
+  width: 200px;
+}

@@ -1,0 +1,37 @@
+.header {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.title {
+  font-weight: normal;
+}
+
+.currency {
+  color: #222;
+  font-weight: bold;
+}
+
+.form {
+  display: grid;
+  gap: 20px;
+}
+
+.fieldset {
+  display: grid;
+  gap: 15px;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  padding: 0;
+  border: none;
+}
+
+.fromTitle,
+.fromSubTitle {
+  margin: 0;
+}
+
+.fromSubTitle {
+  color: #aaa;
+  font-size: 13px;
+}
